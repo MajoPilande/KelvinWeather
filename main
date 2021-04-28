@@ -1,0 +1,10 @@
+const kelvin = 300; //constant value of kelvin
+console.log('Kelvin = ' + kelvin);
+const celsius = kelvin - 273; //constant value of celsius
+console.log('Celsius = ' + celsius);
+var fahrenheit = (celsius *(9/5)) + 32; //formula for getting fahrenheit stored in var
+var fahrenheit = Math.floor(fahrenheit); //change var to math floor of fah
+console.log('The temperature is ' + fahrenheit + ' degrees Fahrenheit.'); 
+var newton = (celsius * (33/100)); //formula for getting newton stored in var
+var newton = Math.floor(newton);
+console.log('The temperature is ' + newton + ' Newton.'); 
